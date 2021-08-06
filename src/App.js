@@ -12,9 +12,9 @@ const App = () => {
   return (
     <ChatEngine
       height="100vh"
-      projectID={projectID}
-      userName={localStorage.getItem('username')}
-      userSecret={localStorage.getItem('password')}
+      projectID={07a6ac0d-ea92-4a6f-9b10-753dacb408df}
+      userName={anoushka}
+      userSecret={Anoushka}
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
       onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
     />
